@@ -1,33 +1,37 @@
-# Gradle files
-.gradle/
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
 build/
+*.env  # Archivos de configuración de entorno
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Django
+/backend/moviedle/db.sqlite3
+/media/  # Archivos subidos por usuarios (si aplicable)
+staticfiles/  # Archivos recolectados con collectstatic
 
-# Log/OS Files
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+.idea/
+.vscode/
+
+# Archivos de logs
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Git
+*.orig  # Archivos de resolución de conflictos
 
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Archivo JSON con las películas seleccionadas
+selected_movies.json
