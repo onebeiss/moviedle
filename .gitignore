@@ -19,6 +19,7 @@ staticfiles/  # Archivos recolectados con collectstatic
 env/
 venv/
 ENV/
+.env
 .venv/
 .idea/
 .vscode/
