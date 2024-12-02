@@ -33,5 +33,7 @@ Thumbs.db  # Windows
 # Git
 *.orig  # Archivos de resolución de conflictos
 
-# Archivo JSON con las películas seleccionadas
-selected_movies.json
+# Archivo JSON con las películas
+current_movies.json
+next_movies.json
+
